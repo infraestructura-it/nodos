@@ -1420,5 +1420,29 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "2578dfd579b17e73",
+        "type": "arduino in",
+        "z": "a4a331ce8588559b",
+        "name": "",
+        "pin": "",
+        "state": "INPUT",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cafd332785c7a34c",
+        "type": "arduino out",
+        "z": "a4a331ce8588559b",
+        "name": "",
+        "pin": "",
+        "state": "",
+        "x": 170,
+        "y": 380,
+        "wires": []
     }
 ]
