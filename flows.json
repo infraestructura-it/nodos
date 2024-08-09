@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "92ee024f59791839",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
@@ -897,6 +905,31 @@
             [
                 "3092d3bc8f1605fc"
             ]
+        ]
+    },
+    {
+        "id": "e2263915f122e906",
+        "type": "amazon-echo-hub",
+        "z": "92ee024f59791839",
+        "port": "80",
+        "processinput": "2",
+        "discovery": false,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d87e568657923cd",
+        "type": "amazon-echo-device",
+        "z": "92ee024f59791839",
+        "name": "Luz casa",
+        "topic": "",
+        "x": 260,
+        "y": 200,
+        "wires": [
+            []
         ]
     }
 ]
