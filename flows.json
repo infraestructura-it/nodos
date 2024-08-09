@@ -1384,6 +1384,41 @@
         "wires": []
     },
     {
+        "id": "5e1aa765e73b5cc7",
+        "type": "mqtt out",
+        "z": "70658835e5d03b17",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "x": 230,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "156302f596786d19",
+        "type": "mqtt in",
+        "z": "70658835e5d03b17",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "7a71267e688b8f9c",
         "type": "Tasmota Switch",
         "z": "2d6eda6e7c11f23f",
