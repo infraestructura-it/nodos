@@ -32,6 +32,14 @@
         "env": []
     },
     {
+        "id": "c51eec1b6b7485a3",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
@@ -917,7 +925,9 @@
         "x": 310,
         "y": 100,
         "wires": [
-            []
+            [
+                "7d87e568657923cd"
+            ]
         ]
     },
     {
@@ -926,8 +936,206 @@
         "z": "92ee024f59791839",
         "name": "Luz casa",
         "topic": "",
-        "x": 260,
-        "y": 200,
+        "x": 560,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbd6029cc9486075",
+        "type": "exec",
+        "z": "c51eec1b6b7485a3",
+        "command": "",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "693873665b9b5f8c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8f2573b6f35fa811",
+        "type": "exec",
+        "z": "c51eec1b6b7485a3",
+        "command": "",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "c1e279010c02bb5c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "517dbbd5556af01b",
+        "type": "exec",
+        "z": "c51eec1b6b7485a3",
+        "command": "",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "b4aa2d27309b4282"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "693873665b9b5f8c",
+        "type": "ui_chart",
+        "z": "c51eec1b6b7485a3",
+        "name": "",
+        "group": "1c6ea29371ae0e03",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1e279010c02bb5c",
+        "type": "ui_chart",
+        "z": "c51eec1b6b7485a3",
+        "name": "",
+        "group": "b7777afd94758bb1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4aa2d27309b4282",
+        "type": "ui_chart",
+        "z": "c51eec1b6b7485a3",
+        "name": "",
+        "group": "61e263bb0f48a744",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 320,
         "wires": [
             []
         ]
