@@ -48,6 +48,14 @@
         "env": []
     },
     {
+        "id": "70658835e5d03b17",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
@@ -242,6 +250,108 @@
         ]
     },
     {
+        "id": "ad029e72a48207e2",
+        "type": "ui_switch",
+        "z": "16e3d7cc3c516b05",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "b7777afd94758bb1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "4a559c46c411ca65"
+            ]
+        ]
+    },
+    {
+        "id": "1ecc56a461743d55",
+        "type": "ui_switch",
+        "z": "16e3d7cc3c516b05",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "61e263bb0f48a744",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "d3cd8415dd895da9"
+            ]
+        ]
+    },
+    {
+        "id": "7d20f522bdd19453",
+        "type": "ui_switch",
+        "z": "16e3d7cc3c516b05",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "db7fe16de6e11124",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "63a90682788f1a75"
+            ]
+        ]
+    },
+    {
         "id": "406e06e001a80315",
         "type": "ui_chart",
         "z": "16e3d7cc3c516b05",
@@ -418,220 +528,6 @@
         ]
     },
     {
-        "id": "ad029e72a48207e2",
-        "type": "ui_switch",
-        "z": "16e3d7cc3c516b05",
-        "name": "",
-        "label": "switch",
-        "tooltip": "",
-        "group": "b7777afd94758bb1",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 290,
-        "y": 200,
-        "wires": [
-            [
-                "4a559c46c411ca65"
-            ]
-        ]
-    },
-    {
-        "id": "1ecc56a461743d55",
-        "type": "ui_switch",
-        "z": "16e3d7cc3c516b05",
-        "name": "",
-        "label": "switch",
-        "tooltip": "",
-        "group": "61e263bb0f48a744",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 290,
-        "y": 280,
-        "wires": [
-            [
-                "d3cd8415dd895da9"
-            ]
-        ]
-    },
-    {
-        "id": "7d20f522bdd19453",
-        "type": "ui_switch",
-        "z": "16e3d7cc3c516b05",
-        "name": "",
-        "label": "switch",
-        "tooltip": "",
-        "group": "db7fe16de6e11124",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 290,
-        "y": 340,
-        "wires": [
-            [
-                "63a90682788f1a75"
-            ]
-        ]
-    },
-    {
-        "id": "b74dbfdf29cc371b",
-        "type": "ui_gauge",
-        "z": "9867c76b41be5145",
-        "name": "",
-        "group": "1c6ea29371ae0e03",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 370,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "1252fa0d7ed50d0a",
-        "type": "ui_gauge",
-        "z": "9867c76b41be5145",
-        "name": "",
-        "group": "b7777afd94758bb1",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 390,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "8c3e75d13db431c7",
-        "type": "ui_gauge",
-        "z": "9867c76b41be5145",
-        "name": "",
-        "group": "61e263bb0f48a744",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 410,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "1f2ff6ef45ce6ec1",
-        "type": "ui_gauge",
-        "z": "9867c76b41be5145",
-        "name": "",
-        "group": "db7fe16de6e11124",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 410,
-        "y": 300,
-        "wires": []
-    },
-    {
         "id": "8d0efe8af507e3ee",
         "type": "inject",
         "z": "9867c76b41be5145",
@@ -746,6 +642,118 @@
                 "1f2ff6ef45ce6ec1"
             ]
         ]
+    },
+    {
+        "id": "b74dbfdf29cc371b",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "1c6ea29371ae0e03",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1252fa0d7ed50d0a",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "b7777afd94758bb1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 390,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8c3e75d13db431c7",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "61e263bb0f48a744",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1f2ff6ef45ce6ec1",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "db7fe16de6e11124",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 300,
+        "wires": []
     },
     {
         "id": "e5cf9752fbb45853",
@@ -924,33 +932,6 @@
         ]
     },
     {
-        "id": "e2263915f122e906",
-        "type": "amazon-echo-hub",
-        "z": "92ee024f59791839",
-        "port": "80",
-        "processinput": "2",
-        "discovery": false,
-        "x": 310,
-        "y": 100,
-        "wires": [
-            [
-                "7d87e568657923cd"
-            ]
-        ]
-    },
-    {
-        "id": "7d87e568657923cd",
-        "type": "amazon-echo-device",
-        "z": "92ee024f59791839",
-        "name": "Luz casa",
-        "topic": "",
-        "x": 580,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "d103a8d7b98c8604",
         "type": "inject",
         "z": "92ee024f59791839",
@@ -977,6 +958,33 @@
             [
                 "e2263915f122e906"
             ]
+        ]
+    },
+    {
+        "id": "e2263915f122e906",
+        "type": "amazon-echo-hub",
+        "z": "92ee024f59791839",
+        "port": "80",
+        "processinput": "2",
+        "discovery": false,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "7d87e568657923cd"
+            ]
+        ]
+    },
+    {
+        "id": "7d87e568657923cd",
+        "type": "amazon-echo-device",
+        "z": "92ee024f59791839",
+        "name": "Luz casa",
+        "topic": "",
+        "x": 580,
+        "y": 160,
+        "wires": [
+            []
         ]
     },
     {
@@ -1220,6 +1228,51 @@
         "statusType": "auto",
         "x": 500,
         "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ec1b88b90773f848",
+        "type": "inject",
+        "z": "70658835e5d03b17",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "7f3e68f451592236"
+            ]
+        ]
+    },
+    {
+        "id": "7f3e68f451592236",
+        "type": "debug",
+        "z": "70658835e5d03b17",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 120,
         "wires": []
     }
 ]
