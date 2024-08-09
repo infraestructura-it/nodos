@@ -6,7 +6,8 @@
         "node-red-dashboard": "3.6.5",
         "node-red-node-ping": "0.3.3",
         "node-red-contrib-local-alexa-devices": "0.1.9",
-        "node-red-contrib-tasmota": "1.0.0"
+        "node-red-contrib-tasmota": "1.0.0",
+        "node-red-contrib-mqtt-connection-check": "0.1.2"
     },
     "node-red": {
         "settings": {
