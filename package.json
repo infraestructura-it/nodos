@@ -3,7 +3,8 @@
     "description": "pruebas de node red",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-dashboard": "3.6.5"
+        "node-red-dashboard": "3.6.5",
+        "node-red-node-ping": "0.3.3"
     },
     "node-red": {
         "settings": {
