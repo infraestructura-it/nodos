@@ -56,6 +56,14 @@
         "env": []
     },
     {
+        "id": "2d6eda6e7c11f23f",
+        "type": "tab",
+        "label": "Flow 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
