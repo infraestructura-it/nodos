@@ -224,6 +224,17 @@
         "width": 6
     },
     {
+        "id": "02dddf36f31ee5a0",
+        "type": "tasmota-mqtt-broker",
+        "name": "xxx",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "keepalive": "60",
+        "cleansession": true
+    },
+    {
         "id": "19e030d26e292145",
         "type": "ui_switch",
         "z": "16e3d7cc3c516b05",
@@ -1259,8 +1270,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 120,
-        "y": 80,
+        "x": 200,
+        "y": 180,
         "wires": [
             [
                 "7f3e68f451592236"
@@ -1279,8 +1290,30 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 120,
+        "x": 400,
+        "y": 180,
         "wires": []
+    },
+    {
+        "id": "7a71267e688b8f9c",
+        "type": "Tasmota Switch",
+        "z": "2d6eda6e7c11f23f",
+        "broker": "02dddf36f31ee5a0",
+        "device": "prueba1",
+        "name": "jjj",
+        "outputs": 1,
+        "uidisabler": false,
+        "fullTopic": "",
+        "cmndPrefix": "",
+        "statPrefix": "",
+        "telePrefix": "",
+        "qos": "1",
+        "retain": "false",
+        "notopic": false,
+        "x": 210,
+        "y": 180,
+        "wires": [
+            []
+        ]
     }
 ]
