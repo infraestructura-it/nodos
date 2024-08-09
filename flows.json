@@ -1412,7 +1412,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 270,
+        "x": 290,
         "y": 80,
         "wires": [
             []
@@ -1529,5 +1529,18 @@
         "x": 170,
         "y": 380,
         "wires": []
+    },
+    {
+        "id": "e5d6edf7bcbea16a",
+        "type": "knx-in",
+        "z": "a4a331ce8588559b",
+        "name": "",
+        "controller": "",
+        "debug": false,
+        "x": 450,
+        "y": 240,
+        "wires": [
+            []
+        ]
     }
 ]
