@@ -826,5 +826,77 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "ea1d5c26db66bb15",
+        "type": "ping",
+        "z": "d1a2a39c5d030f97",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "x1",
+        "host": "",
+        "timer": "20",
+        "inputs": 1,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "e5cf9752fbb45853"
+            ]
+        ]
+    },
+    {
+        "id": "a3a4d43c8a810642",
+        "type": "ping",
+        "z": "d1a2a39c5d030f97",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "x2",
+        "host": "",
+        "timer": "20",
+        "inputs": 1,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "bc5103a1ee6cee63"
+            ]
+        ]
+    },
+    {
+        "id": "fba17371e1a5807a",
+        "type": "ping",
+        "z": "d1a2a39c5d030f97",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "x3",
+        "host": "",
+        "timer": "20",
+        "inputs": 1,
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "cfa83fe960551f3a"
+            ]
+        ]
+    },
+    {
+        "id": "3c7a4b63fa5be5bf",
+        "type": "ping",
+        "z": "d1a2a39c5d030f97",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "",
+        "host": "",
+        "timer": "20",
+        "inputs": 1,
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "3092d3bc8f1605fc"
+            ]
+        ]
     }
 ]
