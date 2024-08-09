@@ -936,10 +936,39 @@
         "z": "92ee024f59791839",
         "name": "Luz casa",
         "topic": "",
-        "x": 560,
-        "y": 180,
+        "x": 580,
+        "y": 160,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "d103a8d7b98c8604",
+        "type": "inject",
+        "z": "92ee024f59791839",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 260,
+        "wires": [
+            [
+                "e2263915f122e906"
+            ]
         ]
     },
     {
@@ -1091,7 +1120,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 450,
-        "y": 220,
+        "y": 200,
         "wires": [
             []
         ]
