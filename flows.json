@@ -636,6 +636,32 @@
         ]
     },
     {
+        "id": "295d64ead8a0025f",
+        "type": "s7 in",
+        "z": "16e3d7cc3c516b05",
+        "endpoint": "",
+        "mode": "single",
+        "variable": "",
+        "diff": true,
+        "name": "",
+        "x": 230,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a505d03c0eb7d3f5",
+        "type": "s7 out",
+        "z": "16e3d7cc3c516b05",
+        "endpoint": "",
+        "variable": "",
+        "name": "",
+        "x": 330,
+        "y": 820,
+        "wires": []
+    },
+    {
         "id": "8d0efe8af507e3ee",
         "type": "inject",
         "z": "9867c76b41be5145",

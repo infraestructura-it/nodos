@@ -10,7 +10,8 @@
         "node-red-contrib-mqtt-connection-check": "0.1.2",
         "google-translate-tts": "0.4.0-dev",
         "node-red-node-arduino": "1.0.0",
-        "node-red-contrib-knx": "0.11.0"
+        "node-red-contrib-knx": "0.11.0",
+        "node-red-contrib-s7": "3.1.0"
     },
     "node-red": {
         "settings": {
