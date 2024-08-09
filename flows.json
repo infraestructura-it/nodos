@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "9867c76b41be5145",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
@@ -476,6 +484,234 @@
         "wires": [
             [
                 "63a90682788f1a75"
+            ]
+        ]
+    },
+    {
+        "id": "b74dbfdf29cc371b",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "1c6ea29371ae0e03",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1252fa0d7ed50d0a",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "b7777afd94758bb1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 390,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8c3e75d13db431c7",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "61e263bb0f48a744",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1f2ff6ef45ce6ec1",
+        "type": "ui_gauge",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "group": "db7fe16de6e11124",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8d0efe8af507e3ee",
+        "type": "inject",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "b74dbfdf29cc371b"
+            ]
+        ]
+    },
+    {
+        "id": "48518652cf93afd1",
+        "type": "inject",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "1252fa0d7ed50d0a"
+            ]
+        ]
+    },
+    {
+        "id": "7333e39ec1b492d9",
+        "type": "inject",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "8c3e75d13db431c7"
+            ]
+        ]
+    },
+    {
+        "id": "674fd9c9dbb363e4",
+        "type": "inject",
+        "z": "9867c76b41be5145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "1f2ff6ef45ce6ec1"
             ]
         ]
     }
