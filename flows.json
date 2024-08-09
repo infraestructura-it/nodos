@@ -72,6 +72,14 @@
         "env": []
     },
     {
+        "id": "8cfe646725f6426e",
+        "type": "tab",
+        "label": "Flow 10",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c2bc3b07d827a52a",
         "type": "ui_base",
         "theme": {
@@ -203,7 +211,9 @@
         "tab": "07743ddb255cbf46",
         "order": 1,
         "disp": true,
-        "width": 6
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "b7777afd94758bb1",
@@ -1574,6 +1584,24 @@
         "debug": false,
         "x": 450,
         "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46b070302770b5f0",
+        "type": "ui_table",
+        "z": "8cfe646725f6426e",
+        "group": "1c6ea29371ae0e03",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "columns": [],
+        "outputs": 1,
+        "cts": true,
+        "x": 310,
+        "y": 220,
         "wires": [
             []
         ]
