@@ -80,7 +80,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -303,6 +304,14 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
+    },
+    {
+        "id": "e29251613d7cfa17",
+        "type": "knx-controller",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3671",
+        "mode": "tunnel/unicast"
     },
     {
         "id": "19e030d26e292145",
@@ -644,8 +653,8 @@
         "variable": "",
         "diff": true,
         "name": "",
-        "x": 230,
-        "y": 720,
+        "x": 250,
+        "y": 640,
         "wires": [
             []
         ]
@@ -1539,8 +1548,8 @@
         "name": "",
         "pin": "",
         "state": "INPUT",
-        "x": 190,
-        "y": 320,
+        "x": 350,
+        "y": 140,
         "wires": [
             []
         ]
@@ -1561,7 +1570,7 @@
         "type": "knx-in",
         "z": "a4a331ce8588559b",
         "name": "",
-        "controller": "",
+        "controller": "e29251613d7cfa17",
         "debug": false,
         "x": 450,
         "y": 240,
