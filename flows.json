@@ -1315,5 +1315,20 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "9c8b12f7b6158290",
+        "type": "mqtt-check",
+        "z": "2d6eda6e7c11f23f",
+        "host": "",
+        "port": "",
+        "username": "",
+        "password": "",
+        "name": "",
+        "x": 240,
+        "y": 240,
+        "wires": [
+            []
+        ]
     }
 ]
